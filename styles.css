@@ -1,0 +1,118 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* Header styles */
+header {
+    background-color: #0B3D91;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #00C9FF; /* Add a colorful border at the bottom */
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('https://sapizon.com/wp-content/uploads/2020/04/vr_ar_usa-1000x400.jpg');
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    border-top: 5px solid #00C9FF; /* Add a colorful border at the top */
+}
+
+/* CTA button styles */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00C9FF;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.cta-button:hover {
+    background-color: #0074D9; /* Change button color on hover */
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0B3D91;
+    color: #fff;
+    border-top: 5px solid #00C9FF; /* Add a colorful border at the top */
+}
+
+}
+/* styles.css */
+
+/* Dropdown styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Additional styling (customize as needed) */
+.dropdown-content a {
+    color: #333;
+    text-decoration: none;
+    display: block;
+    padding: 8px 0;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}

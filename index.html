@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Epsilon 3 Virtual Reality</title>
+    <style>
+        body {
+            background-color: #0f0f1a; /* Dark blue background */
+            color: #ffffff; /* White text color */
+            font-family: Arial, sans-serif;
+            overflow-y: scroll; /* Always show vertical scrollbar */
+        }
+        /* Customize the scrollbar appearance */
+        ::-webkit-scrollbar {
+            width: 10px; /* Width of the scrollbar */
+            background-color: yellow; /* Yellow color for the scrollbar track */
+        }
+        ::-webkit-scrollbar-thumb {
+            background-color: #ff1493; /* Deep pink color for the scrollbar thumb */
+            border-radius: 5px; /* Rounded corners */
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background-color: #ff69b4; /* Lighter pink color on hover */
+        }
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            margin: 20px 0;
+        }
+        .magenta-border {
+            border: 10px solid magenta; /* Big magenta border for the image */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Epsilon 3: The Next Step in Virtual Reality</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="features.html">Epsilon 3 Features</a></li>
+                <li class="dropdown">
+                    <a href="#">Epsilon 3 Options</a>
+                    <div class="dropdown-content">
+                        <a href="gallery.html">Gallery</a>
+                        <a href="reviews.html">Reviews</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Epsilon 3 Pricing</a>
+                    <div class="dropdown-content">
+                        <a href="basic.html">Basic Model</a>
+                        <a href="premium.html">Premium Model</a>
+                    </div>
+                </li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="image-container">
+            <img src="https://static.vecteezy.com/system/resources/previews/002/202/164/large_2x/silhouette-mans-wearing-virtual-reality-device-vr-and-play-hand-to-hand-fighting-combat-karate-jujutsu-taekwondo-in-the-vr-world-imagination-to-versus-in-digital-world-illustration-vector.jpg" alt="Virtual Reality Glasses" class="magenta-border">
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Epsilon 3 Virtual Reality. All rights reserved.</p>
+        <form action="search-results.html">
+            <input type="text" placeholder="Search...">
+            <button type="submit">Search</button>
+        </form>
+    </footer>
+</body>
+</html>
